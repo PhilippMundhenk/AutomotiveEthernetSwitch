@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="9">
+	<Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" LaunchTime="1396242466">
+		<File Type="RDS-UTIL" Name="automotive_ethernet_gateway_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/synth_1/synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="automotive_ethernet_gateway_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="automotive_ethernet_gateway.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="automotive_ethernet_gateway_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="automotive_ethernet_gateway_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="automotive_ethernet_gateway.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="automotive_ethernet_gateway.rds"/>
+		<FileSet Type="BlockSrcs" Name="tri_mode_ethernet_mac_0"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_0"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_1"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_2"/>
+		<FileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+		<FileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_3"/>
+		<FileSet Type="BlockSrcs" Name="blk_mem_gen_2"/>
+	</Run>
+	<Run Id="tri_mode_ethernet_mac_0_synth_1" Type="Ft3:Synth" SrcSet="tri_mode_ethernet_mac_0" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="tri_mode_ethernet_mac_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/tri_mode_ethernet_mac_0_synth_1" LaunchTime="1390360481">
+		<File Type="RDS-UTIL" Name="tri_mode_ethernet_mac_0_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/tri_mode_ethernet_mac_0_synth_1/tri_mode_ethernet_mac_0_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="tri_mode_ethernet_mac_0_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="tri_mode_ethernet_mac_0.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="tri_mode_ethernet_mac_0_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="tri_mode_ethernet_mac_0_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="tri_mode_ethernet_mac_0.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/tri_mode_ethernet_mac_0_synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/tri_mode_ethernet_mac_0_synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="tri_mode_ethernet_mac_0.rds"/>
+	</Run>
+	<Run Id="fifo_generator_0_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_0" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="fifo_generator_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/fifo_generator_0_synth_1" LaunchTime="1387535009">
+		<File Type="RDS-UTIL" Name="fifo_generator_0_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/fifo_generator_0_synth_1/fifo_generator_0_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="fifo_generator_0_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="fifo_generator_0.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="fifo_generator_0_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="fifo_generator_0_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="fifo_generator_0.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/fifo_generator_0_synth_1/sources.xml"/>
+		<File Type="RDS-RDS" Name="fifo_generator_0.rds"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/fifo_generator_0_synth_1/constrs_in.xml"/>
+	</Run>
+	<Run Id="fifo_generator_1_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_1" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="fifo_generator_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/fifo_generator_1_synth_1" LaunchTime="1395056024">
+		<File Type="RDS-UTIL" Name="fifo_generator_1_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/fifo_generator_1_synth_1/fifo_generator_1_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="fifo_generator_1_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="fifo_generator_1.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="fifo_generator_1_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="fifo_generator_1_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="fifo_generator_1.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/fifo_generator_1_synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/fifo_generator_1_synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="fifo_generator_1.rds"/>
+	</Run>
+	<Run Id="fifo_generator_2_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_2" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="fifo_generator_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/fifo_generator_2_synth_1" LaunchTime="1394598709">
+		<File Type="RDS-UTIL" Name="fifo_generator_2_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/fifo_generator_2_synth_1/fifo_generator_2_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="fifo_generator_2_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="fifo_generator_2.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="fifo_generator_2_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="fifo_generator_2_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="fifo_generator_2.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/fifo_generator_2_synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/fifo_generator_2_synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="fifo_generator_2.rds"/>
+	</Run>
+	<Run Id="blk_mem_gen_0_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_0" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="blk_mem_gen_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_gen_0_synth_1" LaunchTime="1389845405">
+		<File Type="RDS-UTIL" Name="blk_mem_gen_0_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/blk_mem_gen_0_synth_1/blk_mem_gen_0_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="blk_mem_gen_0_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="blk_mem_gen_0.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="blk_mem_gen_0_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="blk_mem_gen_0_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="blk_mem_gen_0.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/blk_mem_gen_0_synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/blk_mem_gen_0_synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="blk_mem_gen_0.rds"/>
+	</Run>
+	<Run Id="blk_mem_gen_1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_1" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="blk_mem_gen_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_gen_1_synth_1" LaunchTime="1395646597">
+		<File Type="RDS-UTIL" Name="blk_mem_gen_1_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/blk_mem_gen_1_synth_1/blk_mem_gen_1_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="blk_mem_gen_1_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="blk_mem_gen_1.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="blk_mem_gen_1_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="blk_mem_gen_1_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="blk_mem_gen_1.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/blk_mem_gen_1_synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/blk_mem_gen_1_synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="blk_mem_gen_1.rds"/>
+	</Run>
+	<Run Id="fifo_generator_3_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_3" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="fifo_generator_3" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/fifo_generator_3_synth_1" LaunchTime="1387535012">
+		<File Type="RDS-UTIL" Name="fifo_generator_3_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/fifo_generator_3_synth_1/fifo_generator_3_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="fifo_generator_3_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="fifo_generator_3.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="fifo_generator_3_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="fifo_generator_3_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="fifo_generator_3.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/fifo_generator_3_synth_1/sources.xml"/>
+		<File Type="RDS-RDS" Name="fifo_generator_3.rds"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/fifo_generator_3_synth_1/constrs_in.xml"/>
+	</Run>
+	<Run Id="blk_mem_gen_2_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_2" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="blk_mem_gen_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_gen_2_synth_1" LaunchTime="1395646537">
+		<File Type="RDS-UTIL" Name="blk_mem_gen_2_utilization_synth.rpt"/>
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/blk_mem_gen_2_synth_1/blk_mem_gen_2_synth_1.psg"/>
+		<File Type="RDS-UTIL-PB" Name="blk_mem_gen_2_utilization_synth.pb"/>
+		<File Type="RDS-DCP" Name="blk_mem_gen_2.dcp"/>
+		<File Type="VDS-TIMINGSUMMARY" Name="blk_mem_gen_2_timing_summary_synth.rpt"/>
+		<File Type="VDS-TIMING-PB" Name="blk_mem_gen_2_timing_summary_synth.pb"/>
+		<File Type="PA-TCL" Name="blk_mem_gen_2.tcl"/>
+		<File Type="RUN-SRCS" Name="$PDATADIR/runs/blk_mem_gen_2_synth_1/sources.xml"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/blk_mem_gen_2_synth_1/constrs_in.xml"/>
+		<File Type="RDS-RDS" Name="blk_mem_gen_2.rds"/>
+	</Run>
+	<Run Id="impl_1" Type="Ft2:EntireDesign" SynthRun="synth_1" Part="xc7z045ffg900-2" LaunchPart="xc7z045ffg900-2" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" Dir="$PRUNDIR/impl_1" LaunchTime="1396242466">
+		<File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+		<File Type="OPT-DRC" Name="automotive_ethernet_gateway_drc_opted.rpt"/>
+		<File Type="PLACE-IO" Name="automotive_ethernet_gateway_io_placed.rpt"/>
+		<File Type="PLACE-CLK" Name="automotive_ethernet_gateway_clock_utilization_placed.rpt"/>
+		<File Type="PLACE-UTIL" Name="automotive_ethernet_gateway_utilization_placed.rpt"/>
+		<File Type="PLACE-UTIL-PB" Name="automotive_ethernet_gateway_utilization_placed.pb"/>
+		<File Type="PLACE-CTRL" Name="automotive_ethernet_gateway_control_sets_placed.rpt"/>
+		<File Type="PLACE-SIMILARITY" Name="automotive_ethernet_gateway_incremental_reuse_placed.rpt"/>
+		<File Type="PLACE-PRE-SIMILARITY" Name="automotive_ethernet_gateway_incremental_reuse_pre_placed.rpt"/>
+		<File Type="PA-TCL" Name="automotive_ethernet_gateway.tcl"/>
+		<File Type="ROUTE-DRC" Name="automotive_ethernet_gateway_drc_routed.rpt"/>
+		<File Type="ROUTE-DRC-PB" Name="automotive_ethernet_gateway_drc_routed.pb"/>
+		<File Type="ROUTE-PWR" Name="automotive_ethernet_gateway_power_routed.rpt"/>
+		<File Type="ROUTE-PWR-SUM" Name="automotive_ethernet_gateway_power_summary_routed.pb"/>
+		<File Type="ROUTE-STATUS" Name="automotive_ethernet_gateway_route_status.rpt"/>
+		<File Type="ROUTE-STATUS-PB" Name="automotive_ethernet_gateway_route_status.pb"/>
+		<File Type="ROUTE-DCP" Name="automotive_ethernet_gateway_routed.dcp"/>
+		<File Type="ROUTE-TIMINGSUMMARY" Name="automotive_ethernet_gateway_timing_summary_routed.rpt"/>
+		<File Type="ROUTE-TIMING-PB" Name="automotive_ethernet_gateway_timing_summary_routed.pb"/>
+		<File Type="ROUTE-SIMILARITY" Name="automotive_ethernet_gateway_incremental_reuse_routed.rpt"/>
+		<File Type="OPT-DCP" Name="automotive_ethernet_gateway_opt.dcp"/>
+		<File Type="RDI-RDI" Name="automotive_ethernet_gateway.rdi"/>
+		<File Type="PLACE-DCP" Name="automotive_ethernet_gateway_placed.dcp"/>
+		<File Type="PWROPT-DCP" Name="automotive_ethernet_gateway_pwropt.dcp"/>
+		<File Type="POSTPLACE-PWROPT-DCP" Name="automotive_ethernet_gateway_postplace_pwropt.dcp"/>
+		<File Type="PWROPT-DRC" Name="automotive_ethernet_gateway_drc_pwropted.rpt"/>
+		<File Type="PHYSOPT-DCP" Name="automotive_ethernet_gateway_physopt.dcp"/>
+		<File Type="PHYSOPT-DRC" Name="automotive_ethernet_gateway_drc_physopted.rpt"/>
+		<File Type="BG-BIT" Name="automotive_ethernet_gateway.bit"/>
+		<File Type="BG-DRC" Name="automotive_ethernet_gateway.drc"/>
+		<File Type="BG-BGN" Name="automotive_ethernet_gateway.bgn"/>
+		<File Type="BG-BIN" Name="automotive_ethernet_gateway.bin"/>
+		<File Type="BITSTR-MSK" Name="automotive_ethernet_gateway.msk"/>
+		<File Type="BITSTR-RBT" Name="automotive_ethernet_gateway.rbt"/>
+		<File Type="BITSTR-NKY" Name="automotive_ethernet_gateway.nky"/>
+		<File Type="BITSTR-BMM" Name="automotive_ethernet_gateway_bd.bmm"/>
+		<File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+		<File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+		<FileSet Type="BlockSrcs" Name="tri_mode_ethernet_mac_0"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_0"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_1"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_2"/>
+		<FileSet Type="BlockSrcs" Name="blk_mem_gen_0"/>
+		<FileSet Type="BlockSrcs" Name="blk_mem_gen_1"/>
+		<FileSet Type="BlockSrcs" Name="fifo_generator_3"/>
+		<FileSet Type="BlockSrcs" Name="blk_mem_gen_2"/>
+	</Run>
+	<Run Id="tri_mode_ethernet_mac_0_impl_1" Type="Ft2:EntireDesign" SynthRun="tri_mode_ethernet_mac_0_synth_1" Part="xc7z045ffg900-2" ConstrsSet="tri_mode_ethernet_mac_0" Description="Vivado Implementation Defaults"/>
+	<Run Id="fifo_generator_0_impl_1" Type="Ft2:EntireDesign" SynthRun="fifo_generator_0_synth_1" Part="xc7z045ffg900-2" ConstrsSet="fifo_generator_0" Description="Vivado Implementation Defaults"/>
+	<Run Id="fifo_generator_1_impl_1" Type="Ft2:EntireDesign" SynthRun="fifo_generator_1_synth_1" Part="xc7z045ffg900-2" ConstrsSet="fifo_generator_1" Description="Vivado Implementation Defaults"/>
+	<Run Id="fifo_generator_2_impl_1" Type="Ft2:EntireDesign" SynthRun="fifo_generator_2_synth_1" Part="xc7z045ffg900-2" ConstrsSet="fifo_generator_2" Description="Vivado Implementation Defaults"/>
+	<Run Id="blk_mem_gen_0_impl_1" Type="Ft2:EntireDesign" SynthRun="blk_mem_gen_0_synth_1" Part="xc7z045ffg900-2" ConstrsSet="blk_mem_gen_0" Description="Vivado Implementation Defaults"/>
+	<Run Id="blk_mem_gen_1_impl_1" Type="Ft2:EntireDesign" SynthRun="blk_mem_gen_1_synth_1" Part="xc7z045ffg900-2" ConstrsSet="blk_mem_gen_1" Description="Vivado Implementation Defaults"/>
+	<Run Id="fifo_generator_3_impl_1" Type="Ft2:EntireDesign" SynthRun="fifo_generator_3_synth_1" Part="xc7z045ffg900-2" ConstrsSet="fifo_generator_3" Description="Vivado Implementation Defaults"/>
+	<Run Id="blk_mem_gen_2_impl_1" Type="Ft2:EntireDesign" SynthRun="blk_mem_gen_2_synth_1" Part="xc7z045ffg900-2" ConstrsSet="blk_mem_gen_2" Description="Vivado Implementation Defaults"/>
+</Runs>
+

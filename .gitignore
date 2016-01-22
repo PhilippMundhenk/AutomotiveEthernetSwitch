@@ -1,0 +1,16 @@
+*.log
+*.bit
+*.jou
+*.dmp
+*.orig
+*.wcfg
+*.o
+*.pbi
+*.cout
+*.icf
+*.browse
+*.out
+*.sim
+*.map
+*.pbd
+*.class

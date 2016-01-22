@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component>
+    <DashboardHolder activeDashboard="ILA">
+        <Dashboard columnResizable="1" key="ILA" rowResizable="0" title="ILA">
+            <Settings/>
+            <GadgetContainer boxAxis="1" count="2" height="626"
+                layout="JideBoxLayout" vgap="6" width="1063">
+                <Gadget height="87" key="Trigger Capture Status" width="1063">
+                    <Ila capture_condition="AND" capture_mode="ALWAYS"
+                        data_depth="1024" trigger_condition="AND"
+                        trigger_in="false" trigger_mode="BASIC"
+                        trigger_out="false" trigger_position="50" tsm_file="C:/aeg_repository/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.runs/ila/trigger_state_machine.tsm"/>
+                </Gadget>
+                <Gadget height="473" key="Basic Trigger Setup" width="1063">
+                    <Probe name="Xports[0].switch_port/config_mac_phy/addr[16:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/axi_access_sm[1:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/axi_rd_data[31:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/axi_state[3:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/axi_status[4:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/axi_wr_data[31:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/count_shift[20:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/drive_mdio"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/mac_interrupt"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/mdio_access_sm[1:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/mdio_op[1:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/mdio_ready"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/mdio_reg_addr[7:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/mdio_wr_data[31:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg[0:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_10[10:10]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_11[11:11]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_1[1:1]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_2[2:2]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_3[3:3]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_4[4:4]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_5[5:5]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_6[6:6]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_7[7:7]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_8[8:8]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_araddr_reg_9[9:9]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_arvalid_int_reg"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg[0:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_10[10:10]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_11[11:11]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_1[1:1]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_2[2:2]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_3[3:3]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_4[4:4]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_5[5:5]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_6[6:6]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_7[7:7]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_8[8:8]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awaddr_reg_9[9:9]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_awvalid_int_reg"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_bready_int_reg"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_rready_int_reg"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg[0:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_10[10:10]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_11[11:11]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_12[12:12]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_13[13:13]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_14[14:14]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_15[15:15]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_16[16:16]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_17[17:17]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_18[18:18]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_19[19:19]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_1[1:1]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_20[20:20]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_21[21:21]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_22[22:22]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_23[23:23]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_24[24:24]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_25[25:25]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_26[26:26]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_27[27:27]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_28[28:28]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_29[29:29]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_2[2:2]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_30[30:30]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_31[31:31]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_3[3:3]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_4[4:4]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_5[5:5]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_6[6:6]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_7[7:7]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_8[8:8]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wdata_reg_9[9:9]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/n_0_s_axi_wvalid_int_reg"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/phy_interrupt_n"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_arready"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_awready"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_bresp[1:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_bvalid"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_rdata[31:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_resetn"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_rresp[1:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_rvalid"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/s_axi_wready"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/speed[1:0]"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/start_access"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/start_mdio"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/update_speed_reg"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/update_speed_sync"/>
+                    <Probe name="Xports[0].switch_port/config_mac_phy/writenread"/>
+                </Gadget>
+                <Settings/>
+            </GadgetContainer>
+        </Dashboard>
+    </DashboardHolder>
+</component>
