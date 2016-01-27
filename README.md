@@ -5,4 +5,4 @@ This is a prototype implementation of an FPGA-based switch for Automotive Ethern
 
 To build the bitstream, a license for the Xilinx Tri-Mode Ethernet Media Access Controller (TEMAC) in version 8.3 is required.
 
-The design and implementation of this work has been performed by Andreas Ettner.
+The design and implementation of this work has been performed by *Andreas Ettner*.
