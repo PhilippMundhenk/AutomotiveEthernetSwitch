@@ -1,2 +1,0 @@
-- generate Tri-Mode Ethernet Media Access Controller (TEMAC) v8.1 files in this folder
-- requires license from Xilinx: http://www.xilinx.com/products/intellectual-property/temac.html

@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!--Product Version: Vivado v2013.4 (64-bit)-->
+<Project Version="6" Minor="14" Path="D:/SHS/Research/AutoEnetGway/gitrepo/AutomotiveEthernetSwitch/aes_zc706/aes_zc706.xpr">
+	<FileSet Dir="sources_1" File="fileset.xml"/>
+	<FileSet Dir="constrs_1" File="fileset.xml"/>
+	<FileSet Dir="sim_1" File="fileset.xml"/>
+	<FileSet Dir="tri_mode_ethernet_mac_0" File="fileset.xml"/>
+	<FileSet Dir="fifo_generator_0" File="fileset.xml"/>
+	<FileSet Dir="fifo_generator_1" File="fileset.xml"/>
+	<FileSet Dir="fifo_generator_2" File="fileset.xml"/>
+	<FileSet Dir="blk_mem_gen_0" File="fileset.xml"/>
+	<FileSet Dir="blk_mem_gen_1" File="fileset.xml"/>
+	<FileSet Dir="fifo_generator_3" File="fileset.xml"/>
+	<FileSet Dir="blk_mem_gen_2" File="fileset.xml"/>
+	<HWSession Dir="hw" File="hwsession_1.xml"/>
+	<RunSet Dir="runs" File="runs.xml"/>
+	<DefaultLaunch Dir="$PRUNDIR"/>
+	<Config>
+		<Option Name="Id" Val="8fcf7d165370477884f3ad739243b5bc"/>
+		<Option Name="Part" Val="xc7z045ffg900-2"/>
+		<Option Name="CompiledLibDir" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.cache/compile_simlib"/>
+		<Option Name="TargetLanguage" Val="VHDL"/>
+		<Option Name="Board" Val="xilinx.com:zynq:zc706:1.1"/>
+		<Option Name="ActiveSimSet" Val="sim_1"/>
+	</Config>
+	<MsgRule>
+		<MsgAttr Name="RuleType" Val="0"/>
+		<MsgAttr Name="Limit" Val="-1"/>
+		<MsgAttr Name="NewSeverity" Val="ANY"/>
+		<MsgAttr Name="Id" Val="Common 17-301"/>
+		<MsgAttr Name="Severity" Val="ANY"/>
+		<MsgAttr Name="ShowRule" Val="1"/>
+		<MsgAttr Name="RuleSource" Val="8"/>
+		<MsgAttr Name="StringsToMatch" Val="WARNING: [Common 17-301] Failed to get a license: Internal_bitstream"/>
+	</MsgRule>
+	<MsgRule>
+		<MsgAttr Name="RuleType" Val="0"/>
+		<MsgAttr Name="Limit" Val="-1"/>
+		<MsgAttr Name="NewSeverity" Val="ANY"/>
+		<MsgAttr Name="Id" Val="Synth 8-3332"/>
+		<MsgAttr Name="Severity" Val="ANY"/>
+		<MsgAttr Name="ShowRule" Val="1"/>
+		<MsgAttr Name="RuleSource" Val="8"/>
+		<MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[0] ) is unused and will be removed from module aeg_design_0_switch_port."/>
+	</MsgRule>
+	<MsgRule>
+		<MsgAttr Name="RuleType" Val="0"/>
+		<MsgAttr Name="Limit" Val="-1"/>
+		<MsgAttr Name="NewSeverity" Val="ANY"/>
+		<MsgAttr Name="Id" Val="Synth 8-3332"/>
+		<MsgAttr Name="Severity" Val="ANY"/>
+		<MsgAttr Name="ShowRule" Val="1"/>
+		<MsgAttr Name="RuleSource" Val="8"/>
+		<MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[2] ) is unused and will be removed from module aeg_design_0_switch_port__parameterized3."/>
+	</MsgRule>
+	<MsgRule>
+		<MsgAttr Name="RuleType" Val="0"/>
+		<MsgAttr Name="Limit" Val="-1"/>
+		<MsgAttr Name="NewSeverity" Val="ANY"/>
+		<MsgAttr Name="Id" Val="Synth 8-3332"/>
+		<MsgAttr Name="Severity" Val="ANY"/>
+		<MsgAttr Name="ShowRule" Val="1"/>
+		<MsgAttr Name="RuleSource" Val="8"/>
+		<MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[3] ) is unused and will be removed from module aeg_design_0_switch_port__parameterized5."/>
+	</MsgRule>
+	<MsgRule>
+		<MsgAttr Name="RuleType" Val="0"/>
+		<MsgAttr Name="Limit" Val="-1"/>
+		<MsgAttr Name="NewSeverity" Val="ANY"/>
+		<MsgAttr Name="Id" Val="Synth 8-3332"/>
+		<MsgAttr Name="Severity" Val="ANY"/>
+		<MsgAttr Name="ShowRule" Val="1"/>
+		<MsgAttr Name="RuleSource" Val="8"/>
+		<MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[1] ) is unused and will be removed from module aeg_design_0_switch_port__parameterized1."/>
+	</MsgRule>
+</Project>
+

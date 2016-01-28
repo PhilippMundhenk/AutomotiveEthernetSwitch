@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="30">
+  <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/example_design/aeg_design_example_design.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/aeg_design_example_design.xdc"/>
+        <Attr Name="ImportTime" Val="1453965997"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PDATADIR/constrs_1/designprops.xml">
+      <FileInfo SFType="CompatPartsDb">
+        <Attr Name="ImportPath" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.data/constrs_1/designprops.xml"/>
+        <Attr Name="ImportTime" Val="1453965997"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PDATADIR/constrs_1/usercols.xml">
+      <FileInfo SFType="UserColsDb">
+        <Attr Name="ImportPath" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.data/constrs_1/usercols.xml"/>
+        <Attr Name="ImportTime" Val="1453965997"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/example_design/pin placement.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/pin placement.xdc"/>
+        <Attr Name="ImportTime" Val="1453965997"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/example_design/clocks.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/clocks.xdc"/>
+        <Attr Name="ImportTime" Val="1453965997"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/example_design/phytiming.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/phytiming.xdc"/>
+        <Attr Name="ImportTime" Val="1453965997"/>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInImplementation" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/example_design/aeg_design_example_design.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+</DARoots>
