@@ -1,0 +1,118 @@
+Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2013.4 (win64) Build 353583 Mon Dec  9 17:49:19 MST 2013
+| Date         : Fri Dec 20 18:17:16 2013
+| Host         : RP3-PC running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of blk_mem_gen_0 from xilinx.com:ip:blk_mem_gen:8.0 (Rev. 2) to xilinx.com:ip:blk_mem_gen:8.1
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+WARNING: Detected external port differences while upgrading IP 'blk_mem_gen_0'. These changes may impact your design.
+
+-upgrade has added port 'ena'
+-upgraded port 'addra' width 4 differs from original width 9
+-upgraded port 'dina' width 16 differs from original width 64
+-upgrade has added port 'douta'
+-upgrade has removed port 'clkb'
+-upgrade has removed port 'enb'
+-upgrade has removed port 'addrb'
+-upgrade has removed port 'doutb'
+
+3. Customization warnings
+-------------------------
+
+WARNING: Validation failed for parameter 'Coe File(Coe_File)' with value '....\\mem_initlookup_mem_init.coe' for IP 'blk_mem_gen_0'. Validation failed for parameter 'Coe File(Coe_File)' with value '....\\mem_initlookup_mem_init.coe' for IP 'blk_mem_gen_0'. Invalid COE File- Unable to open the file c:/aeg_repository/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/blk_mem_gen_0/..../mem_initlookup_mem_init.coe
+
+
+WARNING: Customization errors found on 'blk_mem_gen_0'. Restoring to previous valid configuration.
+
+WARNING: Attempt to set value 'no_coe_file_loaded' on disabled parameter 'Coe_File' is ignored for 'blk_mem_gen_0'
+
+
+4. Debug Commands
+-----------------
+
+  The following debug information can be passed to Vivado as Tcl commands,
+in order to validate or debug the output of the upgrade flow.
+  Please consult the warnings from the previous sections, and alter or remove
+the configuration parameter(s) which caused the warning; then execute the Tcl
+commands, and use the IP Customization GUI to verify the IP configuration.
+
+create_ip -vlnv xilinx.com:ip:blk_mem_gen:8.1 -user_name blk_mem_gen_0
+set_property -dict "\
+  CONFIG.Remaining_Memory_Locations 0 \
+  CONFIG.Reset_Memory_Latch_A false \
+  CONFIG.Reset_Memory_Latch_B false \
+  CONFIG.Enable_32bit_Address false \
+  CONFIG.softecc false \
+  CONFIG.Register_PortA_Output_of_Memory_Primitives false \
+  CONFIG.Operating_Mode_A WRITE_FIRST \
+  CONFIG.AXI_Slave_Type Memory_Slave \
+  CONFIG.Operating_Mode_B WRITE_FIRST \
+  CONFIG.Port_A_Clock 100 \
+  CONFIG.Reset_Type SYNC \
+  CONFIG.Reset_Priority_A CE \
+  CONFIG.Reset_Priority_B CE \
+  CONFIG.Use_RSTB_Pin false \
+  CONFIG.register_portb_output_of_softecc false \
+  CONFIG.ecctype No_ECC \
+  CONFIG.MEM_FILE no_mem_loaded \
+  CONFIG.Port_A_Enable_Rate 100 \
+  CONFIG.use_bram_block Stand_Alone \
+  CONFIG.Use_Byte_Write_Enable false \
+  CONFIG.Use_AXI_ID false \
+  CONFIG.AXI_Type AXI4_Full \
+  CONFIG.AXI_ID_Width 4 \
+  CONFIG.Coe_File ....\\mem_initlookup_mem_init.coe \
+  CONFIG.Additional_Inputs_for_Power_Estimation false \
+  CONFIG.Use_REGCEA_Pin false \
+  CONFIG.Port_A_Write_Rate 50 \
+  CONFIG.Write_Width_A 64 \
+  CONFIG.Memory_Type Simple_Dual_Port_RAM \
+  CONFIG.register_porta_input_of_softecc false \
+  CONFIG.Write_Width_B 64 \
+  CONFIG.Pipeline_Stages 0 \
+  CONFIG.Error_Injection_Type Single_Bit_Error_Injection \
+  CONFIG.Write_Depth_A 512 \
+  CONFIG.Algorithm Minimum_Area \
+  CONFIG.Assume_Synchronous_Clk false \
+  CONFIG.Use_Error_Injection_Pins false \
+  CONFIG.Register_PortB_Output_of_Memory_Primitives false \
+  CONFIG.Disable_Out_of_Range_Warnings false \
+  CONFIG.Register_PortB_Output_of_Memory_Core false \
+  CONFIG.CTRL_ECC_ALGO NONE \
+  CONFIG.Interface_Type Native \
+  CONFIG.Component_Name blk_mem_gen_0 \
+  CONFIG.Use_RSTA_Pin false \
+  CONFIG.Byte_Size 9 \
+  CONFIG.Port_B_Enable_Rate 100 \
+  CONFIG.Enable_A Always_Enabled \
+  CONFIG.Enable_B Use_ENB_Pin \
+  CONFIG.Load_Init_File true \
+  CONFIG.Port_B_Write_Rate 0 \
+  CONFIG.Fill_Remaining_Memory_Locations false \
+  CONFIG.Collision_Warnings ALL \
+  CONFIG.Register_PortA_Output_of_Memory_Core false \
+  CONFIG.Disable_Collision_Warnings false \
+  CONFIG.Output_Reset_Value_A 0 \
+  CONFIG.Output_Reset_Value_B 0 \
+  CONFIG.Port_B_Clock 100 \
+  CONFIG.Primitive 8kx2 \
+  CONFIG.Use_REGCEB_Pin false \
+  CONFIG.Read_Width_A 64 \
+  CONFIG.ECC false \
+  CONFIG.Read_Width_B 64 " [get_ips blk_mem_gen_0]
+
+

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2014.1 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
+
+<Project Version="7" Minor="0" Path="D:/SHS/Research/AutoEnetGway/aes_gitrepo/AutomotiveEthernetSwitch/aes_zc702/aes_xc702.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="fcc2e5ea030140a5a9357b42f518bdca"/>
+    <Option Name="Part" Val="xc7z020clg484-1"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="TargetLanguage" Val="VHDL"/>
+    <Option Name="BoardPart" Val="xilinx.com:zc702:part0:1.0"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/output_queue_mem_check.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/output_queue_mem_check.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/output_queue_memory.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/output_queue_memory.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/output_queue_fifo.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/output_queue_fifo.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/output_queue_control.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/output_queue_control.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/output_queue_arbitration.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/output_queue_arbitration.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/input_queue_overflow.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/input_queue_overflow.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/input_queue_memory.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/input_queue_memory.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/input_queue_fifo.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/input_queue_fifo.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/input_queue_control.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/input_queue_control.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/input_queue_arbitration.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/input_queue_arbitration.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/mac/mac_fifo/switch_output_port_fifo.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/mac/mac_fifo/switch_output_port_fifo.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/mac/mac_fifo/switch_input_port_fifo.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/mac/mac_fifo/switch_input_port_fifo.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/sync_blocks/aeg_design_reset_sync.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/sync_blocks/aeg_design_reset_sync.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/tx_path_output_queue.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/tx_path_output_queue.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/rx_path_lookup_memory.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/rx_path_lookup_memory.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/rx_path_lookup.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PSRCDIR/sources_1/rtl/switch_port/rx/rx_path_lookup.v"/>
+          <Attr Name="ImportTime" Val="1402338675"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/rx_path_input_queue.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/rx_path_input_queue.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/rx_path_header_extraction.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/rx_path_header_extraction.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/mac/mac_fifo/mac_fifo_interface.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/mac/mac_fifo/mac_fifo_interface.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/switch_fabric/arbitration_algorithm.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_fabric/arbitration_algorithm.vhd"/>
+          <Attr Name="ImportTime" Val="1390883016"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/sync_blocks/aeg_design_sync_block.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/sync_blocks/aeg_design_sync_block.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/tx/switch_port_tx_path.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/tx/switch_port_tx_path.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/rx/switch_port_rx_path.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/rx/switch_port_rx_path.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/mac/tri_mode_ethernet_mac_block.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/mac/tri_mode_ethernet_mac_block.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/config/config_mac_phy_sm.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/config/config_mac_phy_sm.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_fabric/switch_fabric_arbitration.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_fabric/switch_fabric_arbitration.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/clocking/aeg_design_clk_wiz.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/clocking/aeg_design_clk_wiz.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/timer.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/timer.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/mac/tri_mode_ethernet_mac_0_support_resets.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/mac/tri_mode_ethernet_mac_0_support_resets.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_port/aeg_design_switch_port.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_port/aeg_design_switch_port.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/switch_fabric/aeg_design_switch_fabric.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/switch_fabric/aeg_design_switch_fabric.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/reset/aeg_design_resets.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/reset/aeg_design_resets.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/clocking/aeg_design_clocks.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/clocking/aeg_design_clocks.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/rtl/automotive_ethernet_gateway.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/rtl/automotive_ethernet_gateway.vhd"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PDATADIR/sources_1/ports.xml">
+        <FileInfo SFType="PortsDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.data/sources_1/ports.xml"/>
+          <Attr Name="ImportTime" Val="1390567363"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/mem_init/lookup_mem_init.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/mem_init/lookup_mem_init.coe"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../../Mine/xc702/aes_xc702/aes_xc702.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401970587"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401971627"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_2/fifo_generator_2.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401972039"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_1/fifo_generator_1.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401973572"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_0/fifo_generator_0.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401974281"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401974285"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401974289"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_3/fifo_generator_3.upgrade_log">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.upgrade_log"/>
+          <Attr Name="ImportTime" Val="1401974292"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/mem_init/lookup_mem_init.coe">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/recreate_xc706/recreate_xc706.srcs/sources_1/mem_init/lookup_mem_init.coe"/>
+          <Attr Name="ImportTime" Val="1401796588"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="automotive_ethernet_gateway"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/example_design/aeg_design_example_design.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/aeg_design_example_design.xdc"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PDATADIR/constrs_1/designprops.xml">
+        <FileInfo SFType="CompatPartsDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.data/constrs_1/designprops.xml"/>
+          <Attr Name="ImportTime" Val="1390567363"/>
+        </FileInfo>
+      </File>
+      <File Path="$PDATADIR/constrs_1/usercols.xml">
+        <FileInfo SFType="UserColsDb">
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.data/constrs_1/usercols.xml"/>
+          <Attr Name="ImportTime" Val="1390567363"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/example_design/pin placement.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/pin placement.xdc"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/example_design/clocks.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/clocks.xdc"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/example_design/phytiming.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/constrs_1/imports/example_design/phytiming.xdc"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/example_design/aeg_design_example_design.xdc"/>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sim_1/imports/simulation/aeg_4ports_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sim_1/imports/simulation/aeg_4ports_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/simulation/demo_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../tri_mode_ethernet_mac_0_example/tri_mode_ethernet_mac_0_example.srcs/sources_1/ip/tri_mode_ethernet_mac_0/simulation/demo_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1384138677"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/simulation/aeg_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sim_1/imports/simulation/aeg_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/simulation/aeg_64_byte_full_load_tb.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sim_1/imports/simulation/aeg_64_byte_full_load_tb.vhd"/>
+          <Attr Name="ImportTime" Val="1401796585"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="aeg_4ports_tb"/>
+        <Option Name="SimMode" Val="post-implementation"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="fifo_generator_3" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_generator_3">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_3/fifo_generator_3.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/fifo_generator_3/fifo_generator_3.xci"/>
+          <Attr Name="ImportTime" Val="1401961806"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="fifo_generator_3"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="fifo_generator_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_generator_2">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_2/fifo_generator_2.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/fifo_generator_2/fifo_generator_2.xci"/>
+          <Attr Name="ImportTime" Val="1401961804"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="fifo_generator_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="fifo_generator_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_generator_1">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_1/fifo_generator_1.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/fifo_generator_1/fifo_generator_1.xci"/>
+          <Attr Name="ImportTime" Val="1401961804"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="fifo_generator_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="fifo_generator_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/fifo_generator_0">
+      <File Path="$PSRCDIR/sources_1/ip/fifo_generator_0/fifo_generator_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/fifo_generator_0/fifo_generator_0.xci"/>
+          <Attr Name="ImportTime" Val="1401961803"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="fifo_generator_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="blk_mem_gen_2" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_2">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/blk_mem_gen_2/blk_mem_gen_2.xci"/>
+          <Attr Name="ImportTime" Val="1401961807"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="blk_mem_gen_2"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="blk_mem_gen_1" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_1">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci"/>
+          <Attr Name="ImportTime" Val="1401961805"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="blk_mem_gen_1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="blk_mem_gen_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_gen_0">
+      <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci"/>
+          <Attr Name="ImportTime" Val="1401961805"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="blk_mem_gen_0.xci" FileRelPathName="blk_mem_gen_0/simulation/bmg_stim_gen.vhd">
+          <Attr Name="UserDisabled" Val="1"/>
+        </CompFileExtendedInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="blk_mem_gen_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="tri_mode_ethernet_mac_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/tri_mode_ethernet_mac_0">
+      <File Path="$PPRDIR/../../../Mine/xc702/aes_xc702/aes_xc702.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../automotive-ethernet-gateway/Software/automotive_ethernet_gateway_project/automotive_ethernet_gateway_project.srcs/sources_1/ip/tri_mode_ethernet_mac_0/tri_mode_ethernet_mac_0.xci"/>
+          <Attr Name="ImportTime" Val="1401961801"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="tri_mode_ethernet_mac_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Runs Version="1" Minor="9">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2013"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_3_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_3" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_3" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_2_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_2" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_2" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_1_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_1" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_1" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_0_synth_1" Type="Ft3:Synth" SrcSet="fifo_generator_0" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_0" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="blk_mem_gen_2_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_2" Part="xc7z020clg484-1" ConstrsSet="blk_mem_gen_2" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="blk_mem_gen_1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_1" Part="xc7z020clg484-1" ConstrsSet="blk_mem_gen_1" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="blk_mem_gen_0_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_gen_0" Part="xc7z020clg484-1" ConstrsSet="blk_mem_gen_0" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="tri_mode_ethernet_mac_0_synth_1" Type="Ft3:Synth" SrcSet="tri_mode_ethernet_mac_0" Part="xc7z020clg484-1" ConstrsSet="tri_mode_ethernet_mac_0" Description="Vivado Synthesis Defaults">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_3_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_3" Description="Vivado Implementation Defaults" SynthRun="fifo_generator_3_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_2" Description="Vivado Implementation Defaults" SynthRun="fifo_generator_2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_1" Description="Vivado Implementation Defaults" SynthRun="fifo_generator_1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="fifo_generator_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="fifo_generator_0" Description="Vivado Implementation Defaults" SynthRun="fifo_generator_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="blk_mem_gen_2_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="blk_mem_gen_2" Description="Vivado Implementation Defaults" SynthRun="blk_mem_gen_2_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="blk_mem_gen_1_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="blk_mem_gen_1" Description="Vivado Implementation Defaults" SynthRun="blk_mem_gen_1_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="blk_mem_gen_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="blk_mem_gen_0" Description="Vivado Implementation Defaults" SynthRun="blk_mem_gen_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="tri_mode_ethernet_mac_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="tri_mode_ethernet_mac_0" Description="Vivado Implementation Defaults" SynthRun="tri_mode_ethernet_mac_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="impl_2" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Combines retiming in phys_opt_design with extra placement optimization and higher router delay cost." State="current" SynthRun="synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Performance_Retiming" Flow="Vivado Implementation 2014"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design">
+          <Option Id="Directive">9</Option>
+        </Step>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design" EnableStepBool="1">
+          <Option Id="Directive">6</Option>
+        </Step>
+        <Step Id="route_design">
+          <Option Id="Directive">3</Option>
+        </Step>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+  </Runs>
+  <HWSession Dir="hw_1" File="hw.xml"/>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="0"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="ANY"/>
+    <MsgAttr Name="Id" Val="Synth 8-3332"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="8"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[1] ) is unused and will be removed from module aeg_design_0_switch_port__parameterized1."/>
+  </MsgRule>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="0"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="ANY"/>
+    <MsgAttr Name="Id" Val="Common 17-301"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="8"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="StringsToMatch" Val="WARNING: [Common 17-301] Failed to get a license: Internal_bitstream"/>
+  </MsgRule>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="0"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="ANY"/>
+    <MsgAttr Name="Id" Val="Synth 8-3332"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="8"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[0] ) is unused and will be removed from module aeg_design_0_switch_port."/>
+  </MsgRule>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="0"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="ANY"/>
+    <MsgAttr Name="Id" Val="Synth 8-3332"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="8"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[2] ) is unused and will be removed from module aeg_design_0_switch_port__parameterized3."/>
+  </MsgRule>
+  <MsgRule>
+    <MsgAttr Name="RuleType" Val="0"/>
+    <MsgAttr Name="Limit" Val="-1"/>
+    <MsgAttr Name="NewSeverity" Val="ANY"/>
+    <MsgAttr Name="Id" Val="Synth 8-3332"/>
+    <MsgAttr Name="Severity" Val="ANY"/>
+    <MsgAttr Name="ShowRule" Val="1"/>
+    <MsgAttr Name="RuleSource" Val="8"/>
+    <MsgAttr Name="StringIsRegExp" Val="0"/>
+    <MsgAttr Name="StringsToMatch" Val="WARNING: [Synth 8-3332] Sequential element (\rx_path/lookup/ports_reg_reg[3] ) is unused and will be removed from module aeg_design_0_switch_port__parameterized5."/>
+  </MsgRule>
+</Project>

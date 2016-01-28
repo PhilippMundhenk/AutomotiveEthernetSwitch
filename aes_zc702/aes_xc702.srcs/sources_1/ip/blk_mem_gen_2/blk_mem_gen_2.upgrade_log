@@ -1,0 +1,16 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.1 (win64) Build 881834 Fri Apr  4 14:15:54 MDT 2014
+| Date         : Thu Jun 05 14:33:47 2014
+| Host         : CE-2013-124 running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z045ffg900-2
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'blk_mem_gen_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of blk_mem_gen_2 from xilinx.com:ip:blk_mem_gen:8.1 to xilinx.com:ip:blk_mem_gen:8.2
+
