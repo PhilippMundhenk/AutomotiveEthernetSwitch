@@ -17,3 +17,6 @@ The design and implementation of this work has been performed by **Andreas Ettne
 	- Generating isolated in-phase GTX clocks for the different ports which are aligned with the switch fabric clock.
 	- Removing the ClockMux in the Ethernet Core design -- This will force the link to support only 1Gbps (or 100 Mbps if you use the MII Clock).
 	- Choose another optimisation strategy for the implementation run in Vivado (Eg. Performance optimisations)
+	
+##Support
+This work has been created in TUM CREATE and was financially supported by the Singapore National Research Foundation under its Campus for Research Excellence and Technological Enterprise (CREATE) program.
